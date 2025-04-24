@@ -1,6 +1,3 @@
-# Smartloop
-
-## Overview
 Smartloop AI is an open-source and no-code Small Language Model (SLM) platform designed to create domain-specific language models from custom sources. It aims to save costs, reduce energy consumption, and minimize hallucination in AI models.
 
 ## Features
