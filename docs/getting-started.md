@@ -10,7 +10,7 @@ Smartloop AI is an open-source and no-code Small Language Model (SLM) platform d
 Below is an overview how fine-tune happens behind the scene: 
 
 
-[Fine-tune](./fine-tune.png)
+![Fine-tune](./fine-tune.png)
 
 
 ## Installation
