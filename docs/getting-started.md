@@ -1,4 +1,8 @@
-# Installation
+# Quick Start
+
+This section walks you through the process of installing the Command Line Interface (CLI) locally and using it for prompting.
+
+## Installation
 
 Install the CLI with the following command:
 
@@ -7,7 +11,7 @@ pip install -U smartloop
 
 ```
 
-The Command Line Interface allows you upload, fine-tune and extract information from your documents with a few easy steps
+The Command Line Interface allows you to upload, fine-tune and extract information from your documents with a few easy steps
 
 
 ## Configuration
