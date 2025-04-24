@@ -1,1 +1,3 @@
-  [Getting Started](docs/getting-started.md)
+* [Introduction](/)
+* [Installation](docs/getting-started.md)
+* [Release Notes](docs/release-notes.md)
