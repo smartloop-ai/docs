@@ -12,16 +12,27 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Smartloop',
+      search: {
+        noData: {
+          '/': 'No results found',
+          '/en/': 'No results found'
+        },
+        placeholder: {
+          '/': 'Type to search',
+          '/en/': 'Type to search'
+        }
+      },
+      // name: 'Smartloop',
       repo: 'https://github.com/smartloop-ai/smartloop',
       loadSidebar: true,
-      logo: 'logo.png',
+      // logo: 'logo.png',
       loadNavbar: true,
       subMaxLevel: 2
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 
 </body>
 </html>

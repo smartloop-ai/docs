@@ -18,7 +18,7 @@ The Command Line Interface allows you to upload, fine-tune and extract informati
 
 Once you have your CLI installed , configure it by running the folloiwng comnand:
 
-```
+```bash
 ┌──(smrtlp㉿lexic)-[~]                                                                                        25ms  
 └─$ smartloop login
                               _    _
@@ -42,7 +42,7 @@ This will take you through the process of creating a [free account](https://app.
 
 This is the top-level grouping where all your contents and model is configured at a project level:
 
-```
+```bash
 smartloop projects create --name microsoft
 ```
 
@@ -51,7 +51,7 @@ smartloop projects create --name microsoft
 
 Once the project is selected , upload documents from your folder or a specific file to personalized your project, in this case I am uploading the a document describing Microsoft online services form my local machine:
 
-```
+```bash
 smartloop upload --path=~/document1.pdf
 ```
 
@@ -59,7 +59,7 @@ smartloop upload --path=~/document1.pdf
 
 You can start prompting by executing the following commnand:
 
-```
+```bash
 smartloop run
 ```
 
@@ -68,7 +68,7 @@ This will start the interactive interface that will let you interact with the mo
 
 Below is an example of the interactive interface:
 
-```
+```bash
 Microsoft(microsoft-24-07-2024)
 ======================================
 Enter prompt (Ctrl-C to exit): 
